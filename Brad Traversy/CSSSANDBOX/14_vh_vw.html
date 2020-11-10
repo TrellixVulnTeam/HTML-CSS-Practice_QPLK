@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vh & vw Units</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    header {
+      background: url('https://source.unsplash.com/random/1080x1920') no-repeat center center/cover;
+      color: #fff;
+      height: 100vh;
+      text-align: center;
+      padding: 2rem; /* 32px */
+      padding-top: 15rem;
+    }
+    header h1 {
+      font-size: 3rem;
+    }
+    header p {
+      margin: 1rem 0;
+    }
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #f7d794;
+      color: #333;
+      padding: 0.75rem 2rem;
+    }
+    section {
+      padding: 2rem;
+    }
+    
+    @media (max-height: 450px) {
+      header {
+        padding-top: 50px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome To our Website</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus error corrupti, non perferendis commodi eos? Magnam harum sapiente delectus officiis?</p>
+    <a href="#" class="btn">Fint Out More</a>
+  </header>
+
+  <section>
+    <h3>About Our Company</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus rem quisquam laudantium harum, blanditiis animi exercitationem voluptatem, earum hic tempora consectetur sunt culpa aliquam et impedit est. Minima, dolorem fugit.</p>
+  </section>
+</body>
+</html>

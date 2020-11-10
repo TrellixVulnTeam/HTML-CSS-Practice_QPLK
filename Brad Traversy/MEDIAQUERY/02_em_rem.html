@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rem & Em Units</title>
+  <style>
+    /* #box-1 {
+      font-size: 20px;
+    }
+    #box-1 p {
+      font-size: 1.5em;
+    }
+    #box-1 ul {
+      font-size: 1.2em;
+    } */
+    html {
+      font-size: 10px;
+    }
+    #box-2 h3 {
+      font-size: 2rem;
+    }
+    #box-2 p {
+      font-size: 1.6rem;
+      line-height: 1.7rem;
+    }
+  </style>
+  <!-- em은 가장 최근에 선언된 size를 기준으로 하고 rem은 가장 최상위 요소인 html을 기준으로 한다. em보다는 rem을 사용하는게 혼선을 주지 않는다고 한다.-->
+</head>
+<body>
+  <!-- <div id="box-1">
+    <h3>Box one</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tempore perferendis dignissimos eum voluptates incidunt, fuga quos architecto praesentium accusamus?</p>
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3
+            <ul>
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>4</li>
+    </ul>
+  </div> -->
+  <div id="box-2">
+    <h3>Box Two</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tempore perferendis dignissimos eum voluptates incidunt, fuga quos architecto praesentium accusamus?</p>
+  </div>
+</body>
+</html>
