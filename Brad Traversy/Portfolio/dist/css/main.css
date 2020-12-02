@@ -1,4 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+.container {
+  overflow: hidden;
+  max-width: 1280px;
+  padding: 0 1.5rem;
+  margin: auto; }
+
+.btn-main, .btn-light, .btn-dark {
+  display: inline-block;
+  padding: .8rem 2rem;
+  transition: all .5s;
+  border: none;
+  cursor: pointer; }
+
+.btn-main {
+  background-color: #ffbc00;
+  color: #333; }
+
+.btn-light {
+  background-color: #f4f4f4;
+  color: #333; }
+
+.btn-dark {
+  background-color: #333;
+  color: #f4f4f4; }
+
+button[class^='btn-']:hover,
+a[class^='btn-']:hover,
+input[class^='btn-']:hover {
+  background-color: #ffbc00; }
+
+.lead {
+  margin-bottom: 2rem;
+  font-size: 1.3rem; }
+
+.text-center {
+  text-align: center; }
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +44,8 @@
 body {
   background-color: #fff;
   font-family: 'Dosis', sans-serif;
-  line-height: 1.6; }
+  line-height: 1.6;
+  font-size: 16px; }
 
 a {
   text-decoration: none;
@@ -23,3 +61,40 @@ h4 {
 
 img {
   width: 100%; }
+
+#logo {
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  text-transform: uppercase; }
+
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem; }
+  #main-nav ul {
+    display: flex; }
+  #main-nav li {
+    padding: 1rem 1.5rem; }
+  #main-nav a {
+    border-bottom: 3px solid transparent;
+    padding-bottom: .5rem;
+    transition: border-color .5s;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff; }
+    #main-nav a:hover {
+      border-color: #ccc; }
+    #main-nav a.current {
+      border-color: #ffbc00; }
+
+#header-home {
+  height: 100vh;
+  background: url("../img/showcase.jpg") no-repeat center right/cover;
+  color: #fff; }
+  #header-home .header-content {
+    padding-top: 20%;
+    text-align: center; }
+    #header-home .header-content h1 {
+      line-height: 1.2;
+      font-size: 4rem; }
