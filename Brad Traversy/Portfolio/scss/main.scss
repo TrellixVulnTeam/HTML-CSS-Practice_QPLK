@@ -1,0 +1,28 @@
+@import 'config';
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.6;
+}
+a {
+  text-decoration: none;
+  color: $dark-color;
+}
+ul {
+  list-style: none;
+}
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+img {
+  width: 100%;
+}
